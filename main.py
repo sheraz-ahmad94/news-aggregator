@@ -82,7 +82,6 @@ elif option == "3" or option == "keyword":
     if response.status_code == 200:
         print(f"\n\nShowing Top 10 Results for {keyword.upper()}\n\n")
         data = response.json()
-        print(data)
         format_the_data(data)
         option = input("Want To Read a Full Article? Enter Its Number (Enter q to Quit): ")
         if 1 <= int(option) <= 10:
