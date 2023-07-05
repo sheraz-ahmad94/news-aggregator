@@ -33,7 +33,7 @@ def get_full_article(data, number):
     
 
 BASE_URL = "https://newsapi.org"
-API_KEY = "392dff38dabc450cbbdce04cdfe6407b"
+API_KEY = "{ENTER_YOUR_API_KEY}"
 
 option = input("Browse News By:\n1. Top Headlines\n2: Category\n3: Keyword\nSelect: ").lower()
 
